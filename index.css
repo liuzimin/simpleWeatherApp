@@ -1,0 +1,96 @@
+p {
+  color: white;
+}
+
+h2 {
+  font-style: bold;
+  color: white;
+}
+
+select {
+  border: none;
+  font-size: 24px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+option {
+  color: white;
+}
+
+*:focus {
+  outline: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.default {
+  background: linear-gradient(black, grey);
+}
+
+.clearSky {
+  background: url("https://wallpaperaccess.com/full/175910.jpg");
+}
+
+.cloudySky {
+  background: url("https://www.ecopetit.cat/wpic/mpic/154-1548365_wallpaper-clouds-sky-dark-porous-cloudy-cloudy-night.jpg");
+}
+
+.rainy {
+  background: url("https://wallpapertag.com/wallpaper/full/1/1/b/134595-rainy-background-1920x1200-for-ipad.jpg");
+  background-size: cover;
+}
+
+.snow {
+  background: url("https://wallpapertag.com/wallpaper/full/7/c/b/701995-new-snowflakes-wallpaper-1920x1200-for-lockscreen.jpg");
+}
+
+.mist {
+  background: url("https://wallpapersmug.com/download/1600x1200/a5541d/mist-fog-pine-tree-nature.jpg");
+}
+
+.today {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+
+  width: 30vw;
+}
+
+.future {
+  display: flex;
+  flex-direction: row;
+}
+
+.oneDayDisplay {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.4);
+  min-width: 200px;
+}
+
+.day {
+  display: flex;
+  flex-direction: row;
+}
+
+.floatBottomDate {
+  margin-left: 15px;
+  margin-top: auto;
+  margin-bottom: 22px;
+}
